@@ -1,9 +1,9 @@
 // app/layout.js (or app/layout.tsx)
+import "./globals.css";
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../theme';
-import './globals.css';
 
 const inter = Inter({
   weight: ['300', '400', '500', '700'],

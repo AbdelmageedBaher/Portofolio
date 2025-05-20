@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import TabSkills from '../component/TabSkills'
+import TabSkills from './TabSkills'
 
 export default function About() {
   return (
