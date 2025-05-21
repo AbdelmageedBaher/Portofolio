@@ -10,7 +10,7 @@ const projectsData = [
         title:"Portfolio App Using Next.js",
         description:"The portfolio site uses Next.js for server-side rendering and routing, Tailwind CSS for utility-first styling, Material UI (MUI) for ready-made React UI components, and Resend for email functionality.",
         image:"/images/projects/portfolio.png",
-        demo:"portofolio-c0pa1jtl8-abdelmageedbahers-projects.vercel.app/",
+        demo:"portofolio-7h7tzct4y-abdelmageedbahers-projects.vercel.app",
         repo:"https://github.com/AbdelmageedBaher/Portofolio.git",
     },
     {
