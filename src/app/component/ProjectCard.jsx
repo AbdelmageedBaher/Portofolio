@@ -41,7 +41,7 @@ export default function ProjectCard({ imgUrl, title, description, repoUrl, demoU
 
       <div className="text-white rounded-b-xl mt-2 bg-[#181818] py-6 px-4">
         <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE] h-24">{description}</p>
+        <p className="text-[#ADB7BE] md:h-24">{description}</p>
       </div>
     </div>
   );
