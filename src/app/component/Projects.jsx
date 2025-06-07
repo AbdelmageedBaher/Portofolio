@@ -25,7 +25,7 @@ const projectsData = [
         id:3,
         title:"Register and Login App ",
         description:"A simple and functional login system built with HTML, CSS, and JavaScript, featuring user authentication and form validation.",
-        image:"/images/projects/login.png",
+        image:"/images/projects/login.jpeg",
         demo:"abdelmageedbaher.github.io/LoginSystem/",
         repo:"https://github.com/AbdelmageedBaher/LoginSystem.git",
     },
