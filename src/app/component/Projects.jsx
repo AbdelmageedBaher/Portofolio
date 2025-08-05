@@ -23,6 +23,14 @@ const projectsData = [
     },
     {
         id:3,
+        title:"Hagoga Restaurant ",
+        description:"Hagoga is a modern web platform designed to showcase trending movies with a clean, Built using Next.js, Tailwind CSS, and MUI for responsive design and smooth user experience",
+        image:"/images/projects/hagoga.png",
+        demo:"https://hagoga.vercel.app/",
+        repo:"https://github.com/AbdelmageedBaher/Hagoga.git",
+    },
+    {
+        id:4,
         title:"Register and Login App ",
         description:"A simple and functional login system built with HTML, CSS, and JavaScript, featuring user authentication and form validation.",
         image:"/images/projects/login.jpeg",
@@ -30,7 +38,7 @@ const projectsData = [
         repo:"https://github.com/AbdelmageedBaher/LoginSystem.git",
     },
     {
-        id:4,
+        id:5,
         title:"Weather App",
         description:"A simple weather app displaying current conditions by city or location. Built with JavaScript, HTML, CSS and Bootstrap using the OpenWeatherMap API.",
         image:"/images/projects/weather.jpg",
@@ -39,7 +47,7 @@ const projectsData = [
     },
     ,
     {
-        id:5,
+        id:6,
         title:"CRUD App",
         description:"A basic CRUD app that stores data locally in the browser using localStorage for persistent and easy data management.",
         image:"/images/projects/crud.PNG",
@@ -47,7 +55,7 @@ const projectsData = [
         repo:"https://github.com/AbdelmageedBaher/crud.git",
     },
     {
-        id:6,
+        id:7,
         title:"Mealify App",
         description:"A Mealify app built with Bootstrap, HTML, CSS, and JavaScript, featuring a clean, responsive design for browsing meals and recipes.",
         image:"/images/projects/burger.jpg",
@@ -55,7 +63,7 @@ const projectsData = [
         repo:"https://github.com/AbdelmageedBaher/Mealify-Project.git",
     },
     {
-        id:7,
+        id:8,
         title:"Movies App",
         description:"A dynamic movies web app built with vanilla JavaScript and styled using Tailwind CSS, integrating the TMDB API for real-time movie data.",
         image:"/images/projects/movie.jpg",

@@ -19,7 +19,7 @@ export default function ProjectCard({ imgUrl, title, description, repoUrl, demoU
           backgroundPosition: 'cover',
         }}
       >
-        <div className="overlay items-center justify-center absolute top-0 left-0 h-full w-full bg-[#181818] opacity-0 hidden group-hover:opacity-80 group-hover:flex transition-all duration-1000">
+        <div className="overlay items-center justify-center absolute top-0 left-0 h-full w-full bg-[#181818] opacity-0 hidden group-hover:opacity-80 group-hover:flex transition-all duration-3000">
           <Link href={normalizeUrl(repoUrl)} target="_blank" rel="noopener noreferrer">
             <div className="w-14 h-14 relative border-2 rounded-full border-[#ADB7BE] hover:border-white mr-2 group/link">
               <FontAwesomeIcon
