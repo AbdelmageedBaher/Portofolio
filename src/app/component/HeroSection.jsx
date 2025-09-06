@@ -50,7 +50,7 @@ export default function HeroSection() {
         <div>
             <button className='px-6 py-3 rounded-full w-full sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 mr-4 cursor-pointer text-white'>Hire Me</button>
             <Link
-  href="https://drive.google.com/file/d/12OuWLhSWkX1pz0XtSNThsRjIYjWw44BC/view?usp=sharing"
+  href="https://drive.google.com/file/d/1rXiaTdhrXaQaz3lj-PW_H6Q1i7lyzdL-/view?usp=sharing"
   download
   target="_blank"
   rel="noopener noreferrer"
