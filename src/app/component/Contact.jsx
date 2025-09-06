@@ -1,7 +1,7 @@
 "use client";
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWhatsapp, faInstagram, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import {faWhatsapp, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -69,12 +69,7 @@ export default function Contact() {
               <FontAwesomeIcon icon={faWhatsapp} className='text-green-400 px-0.5 text-4xl'/>            
            </a>
           </Link>
-          
-          <Link href="https://www.instagram.com/abdelmageed_72" passHref legacyBehavior>
-            <a target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} className='bg-gradient-to-r from-[#E1306C] to-purple-500 bg-transparent rounded-lg px-0.5 text-4xl'/>            
-           </a>
-          </Link>
+        
           
         </div>
       </div>

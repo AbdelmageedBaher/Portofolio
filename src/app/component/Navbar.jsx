@@ -21,7 +21,6 @@ import Image from 'next/image';
 // Social Icons
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const drawerWidth = 240;
@@ -79,11 +78,6 @@ function Navbar(props) {
         <Link href="https://www.linkedin.com/in/abdelmageed-baher-b04b82262/" target="_blank" rel="noopener noreferrer">
           <IconButton sx={{ color: '#0A66C2' }}>
             <LinkedInIcon />
-          </IconButton>
-        </Link>
-        <Link href="https://www.instagram.com/abdelmageed_72" target="_blank" rel="noopener noreferrer">
-          <IconButton sx={{ color: '#E1306C' }}>
-            <InstagramIcon />
           </IconButton>
         </Link>
       </Box>
@@ -156,11 +150,6 @@ function Navbar(props) {
             <Link href="https://www.linkedin.com/in/abdelmageed-baher-b04b82262/" target="_blank" rel="noopener noreferrer">
               <IconButton sx={{ color: '#0A66C2' }}>
                 <LinkedInIcon />
-              </IconButton>
-            </Link>
-            <Link href="https://www.instagram.com/abdelmageed_72" target="_blank" rel="noopener noreferrer">
-              <IconButton sx={{ color: '#E1306C' }}>
-                <InstagramIcon />
               </IconButton>
             </Link>
           </Box>

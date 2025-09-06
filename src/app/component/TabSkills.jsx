@@ -21,7 +21,7 @@ function TabPanel(props) {
     >
       {value === index && (
         <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
+          <Typography component="div">{children}</Typography>
         </Box>
       )}
     </div>
@@ -50,7 +50,7 @@ export default function FullWidthTabs() {
   };
 
   return (
-    <Box sx={{ bgcolor: 'background.paper', width: { xs: '100%',sm: '100%', md: '100%'}}} >
+    <Box sx={{ bgcolor: 'background.paper', width: '100%' }}>
       <AppBar position="static">
         <Tabs
           value={value}
@@ -62,35 +62,47 @@ export default function FullWidthTabs() {
         >
           <Tab label="Education" {...a11yProps(0)} />
           <Tab label="Skills" {...a11yProps(1)} />
-          <Tab label="experience" {...a11yProps(2)} />
+          <Tab label="Projects" {...a11yProps(2)} />
+          <Tab label="Courses" {...a11yProps(3)} />
         </Tabs>
       </AppBar>
-      
-      <TabPanel  value={value} index={0} dir={theme.direction} className="bg-[#121212]">
-        <span className="text-white  text-[15px] text-base  lg:text-xl">
-            <li className="py-2" >MTI University | Computer Science and Artificial Intelligence</li>
-            <li className="py-2">Frontend Diploma at Route Academy</li>
-        </span>      
-        </TabPanel>
-        <TabPanel value={value} index={1} dir={theme.direction} className="bg-[#121212]">
-        <span className="text-white  text-[11px] text-base  lg:text-xl">
-            <li className="py-2">HTML5</li>
-            <li className="py-2">CSS3</li>
-            <li className="py-2">JavaScript (ES6+) </li>
-            <li className="py-2">TypeScript </li>
-            <li className="py-2">React.js</li>
-            <li className="py-2">Next.js</li>
-            <li className="py-2">Redux / Context API </li>
-            <li className="py-2">Tailwind CSS</li>
-            <li className="py-2">Material UI, Bootstrap</li>
-        </span>
+
+      {/* Education */}
+      <TabPanel value={value} index={0} dir={theme.direction} className="bg-[#121212]">
+        <ul className="text-white text-[15px] lg:text-xl">
+          <li className="py-2">MTI University | Computer Science and Artificial Intelligence</li>
+        </ul>
       </TabPanel>
+
+      {/* Skills */}
+      <TabPanel value={value} index={1} dir={theme.direction} className="bg-[#121212]">
+        <ul className="text-white text-[11px] lg:text-xl">
+          <li className="py-2">HTML5</li>
+          <li className="py-2">CSS3</li>
+          <li className="py-2">JavaScript (ES6+)</li>
+          <li className="py-2">TypeScript</li>
+          <li className="py-2">React.js</li>
+          <li className="py-2">Next.js</li>
+          <li className="py-2">Redux / Context API</li>
+          <li className="py-2">Tailwind CSS, Bootstrap</li>
+          <li className="py-2">Material UI, Shadcn/ui</li>
+        </ul>
+      </TabPanel>
+
+      {/* Projects */}
       <TabPanel value={value} index={2} dir={theme.direction} className="bg-[#121212]">
-        <span className="text-white  text-[15px] text-base  lg:text-xl">
-            <li className="py-2">Built a responsive React Ecommerce site with Tailwind, axios, use query and context Api</li>
-            <li className="py-2">Built a responsive Next portfolio site with Tailwind and Material UI</li>
-            <li className="py-2">Completed Route Academy Frontend Diploma</li>
-        </span> 
+        <ul className="text-white text-[15px] lg:text-xl">
+          <li className="py-2">Built a responsive React Ecommerce site with Tailwind, axios, useQuery, and Context API</li>
+          <li className="py-2">Built a responsive Next.js portfolio site with Tailwind and Material UI</li>
+        </ul>
+      </TabPanel>
+
+      {/* Courses */}
+      <TabPanel value={value} index={3} dir={theme.direction} className="bg-[#121212]">
+        <ul className="text-white text-[15px] lg:text-xl">
+          <li className="py-2">Frontend Diploma at Route Academy</li>
+          <li className="py-2">Completed Route Academy Frontend Diploma | Feb 2025</li>
+        </ul>
       </TabPanel>
     </Box>
   );
